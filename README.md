@@ -1,5 +1,7 @@
 # List of experiments
 
+https://sites.google.com/thapar.edu/meenakshirana/Current-Semester-2020/optimization-techniques_1
+
 **1. Graphical method for LPP**
 Formulate the LPP → plot each constraint as an equation → identify the feasible region → find corner (extreme) points → evaluate the objective function at each corner → the best value gives the optimal solution.
 
