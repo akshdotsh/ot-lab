@@ -11,4 +11,31 @@ X11 = max(0, X11);
 X12 = max(0, X12);
 X13 = max(0, X13);
 
-plot(y1, X11, 'b-', y1, X12, 'r--', y1, X13, 'g:');
+plot(y1, X11, 'b-', y1, X12, 'r--', y1, X13, 'g:')
+
+% corner point
+% cx1 = find(Y==0);
+% c1 = find(X11 == 0);
+% disp(cx1)
+% disp(c1)
+% line1 = [Y(:,[c1,cx1]);x11(:,[c1,cx1])]';
+
+% c2 = find(X11 == 0);
+% line2 = [Y(:,[c2,cx1]);x21(:,[c2,cx1])]';
+
+% c3 = find(X11 == 0);
+% line3 = [Y(:,[c3,cx1]);x31(:,[c3,cx1])]';
+
+
+
+
+% corner point
+cx1 = find(Y==0);
+c1 = find(X11 == 0);
+c2 = find(X12 == 0);
+c3 = find(X13 == 0);
+
+line1 = [Y([c1,cx1]); X11([c1,cx1])]';
+line2 = [Y([c2,cx1]); X12([c2,cx1])]';
+line3 = [Y([c3,cx1]); X13([c3,cx1])]';
+
